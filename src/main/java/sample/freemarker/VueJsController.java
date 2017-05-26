@@ -17,4 +17,9 @@ public class VueJsController {
     public String vueJs02() {
         return "vueJs02";
     }
+
+    @GetMapping("/vueJs03")
+    public String vueJs03() {
+        return "vueJs03";
+    }
 }
