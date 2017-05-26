@@ -43,4 +43,9 @@ public class VueJsController {
         return "vueJs07";
     }
 
+    @GetMapping("vueJs08")
+    public String vueJs08() {
+        return "vueJs08";
+    }
+
 }
