@@ -38,4 +38,9 @@ public class VueJsController {
         return "vueJs06";
     }
 
+    @GetMapping("vueJs07")
+    public String vueJs07() {
+        return "vueJs07";
+    }
+
 }
