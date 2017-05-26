@@ -22,4 +22,10 @@ public class VueJsController {
     public String vueJs03() {
         return "vueJs03";
     }
+
+    @GetMapping("/vueJs04")
+    public String vueJs04() {
+        return "vueJs04";
+    }
+
 }
