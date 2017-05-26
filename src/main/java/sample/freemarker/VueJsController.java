@@ -32,4 +32,10 @@ public class VueJsController {
     public String vueJs05() {
         return "vueJs05";
     }
+
+    @GetMapping("/vueJs06")
+    public String vueJs06() {
+        return "vueJs06";
+    }
+
 }
