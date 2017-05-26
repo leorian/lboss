@@ -9,7 +9,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class BootstrapController {
     @GetMapping("/bootstrap01")
-    private String bootstrap01() {
+    public String bootstrap01() {
         return "bootstrap01";
+    }
+
+    @GetMapping("/bootstrap02")
+    public String bootstrap02() {
+        return "bootstrap02";
     }
 }
