@@ -12,4 +12,9 @@ public class VueJsController {
     public String vueJs01() {
         return "vueJs01";
     }
+
+    @GetMapping("/vueJs02")
+    public String vueJs02() {
+        return "vueJs02";
+    }
 }
